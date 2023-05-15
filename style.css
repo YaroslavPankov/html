@@ -1,0 +1,39 @@
+.nav-list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.list-item{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(231, 154, 11);
+    padding: 20px;
+
+}
+.link{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    
+
+}
+.sub-nav-list{
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    display: block;
+
+}
+.sub-list-item{
+    display: none;
+    list-style-type: none;
+    background-color: rgb(231, 154, 11);
+    padding: 20px;
+
+}
+.list-item:hover .sub-list-item{
+    display: block;
+}
+
