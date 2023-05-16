@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     font-size: 0;
-
 }
 .list-item {
     list-style-type: none;
     display: inline-block;
     position: relative;
     background-color: rgb(231, 92, 11);
+    margin-right: -92px;
     padding: 20px;
     width: 240px;
 
@@ -22,10 +22,8 @@
 }
 .sub-nav-list{
     position: absolute;
-    top: 60px;
+    top: 62px;
     left: -40px;
-    display: block;
-
 }
 .sub-list-item{
     display: none;
@@ -53,12 +51,14 @@
     font-size: 20px;
     color: white;
     text-decoration: none;
+    width: 100%;
 }
 .sub-list-item:hover .sub2-list-item {
     display: block;
 }
 .sub3-nav-list {
     position: absolute;
+    display: block;
     top: 126px;
     left: 188px;
     display: block;
