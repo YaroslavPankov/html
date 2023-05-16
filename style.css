@@ -2,38 +2,89 @@
     margin: 0;
     padding: 0;
     font-size: 0;
+
 }
-.list-item{
+.list-item {
     list-style-type: none;
     display: inline-block;
     position: relative;
-    background-color: rgb(231, 154, 11);
+    background-color: rgb(231, 92, 11);
     padding: 20px;
+    width: 240px;
 
 }
 .link{
     font-size: 20px;
     color: white;
     text-decoration: none;
-    width: 100%;
-    
+    padding-right: 60px;
 
 }
 .sub-nav-list{
     position: absolute;
-    top: 40px;
-    left: -20px;
+    top: 60px;
+    left: -40px;
     display: block;
 
 }
 .sub-list-item{
     display: none;
     list-style-type: none;
-    background-color: rgb(231, 154, 11);
+    background-color: rgb(231, 92, 11);
     padding: 20px;
-
 }
-.list-item:hover .sub-list-item{
+.list-item:hover .sub-list-item {
     display: block;
 }
-
+.sub2-nav-list {
+    position: absolute;
+    top: 126px;
+    left: 188px;
+    display: block;
+}
+.sub2-list-item {
+    display: none;
+    list-style-type: none;
+    background-color: rgb(231, 92, 11);
+    padding: 20px;
+    padding-right: 70px;
+}
+.link2 {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.sub-list-item:hover .sub2-list-item {
+    display: block;
+}
+.sub3-nav-list {
+    position: absolute;
+    top: 126px;
+    left: 188px;
+    display: block;
+}
+.sub3-list-item {
+    display: none;
+    list-style-type: none;
+    background-color: rgb(231, 92, 11);
+    padding: 15px;
+    padding-right: 90px;
+}
+.link3 {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.sub2-list-item:hover .sub3-list-item {
+    display: block;
+}
+.sub-list-item:hover {
+    background-color: rgb(149, 56, 3);
+}
+.sub2-list-item:hover {
+    background-color: rgb(149, 56, 3);
+}
+.sub3-list-item:hover {
+    background-color: rgb(149, 56, 3);
+}
